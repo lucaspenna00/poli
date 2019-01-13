@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1505956666 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep2_versao1\interfaceserial.cpp
+	"InterfaceSerial.h"
+	<stdio.h>
+	<vector>
+	<stdexcept>
+	<iostream>
+	<cctype>
+
+1505956668 c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep2_versao1\interfaceserial.h
+	<string>
+	<windows.h>
+
+1505956669 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep2_versao1\main.cpp
+	<iostream>
+	"Serie.h"
+	"Ponto.h"
+	<iostream>
+	"Serie.h"
+	"Ponto.h"
+	"InterfaceSerial.h"
+
+1508798312 c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep2_versao1\serie.h
+	<string>
+	"Ponto.h"
+
+1505956663 c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep2_versao1\ponto.h
+
+1505956662 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep2_versao1\ponto.cpp
+	"Ponto.h"
+	<iostream>
+
