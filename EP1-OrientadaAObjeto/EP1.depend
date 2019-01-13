@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1505956666 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\interfaceserial.cpp
+	"InterfaceSerial.h"
+	<stdio.h>
+	<vector>
+	<stdexcept>
+	<iostream>
+	<cctype>
+
+1505956668 c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\interfaceserial.h
+	<string>
+	<windows.h>
+
+1505956669 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\main.cpp
+	<iostream>
+	"Serie.h"
+	"Ponto.h"
+	<iostream>
+	"Serie.h"
+	"Ponto.h"
+	"InterfaceSerial.h"
+
+1506020200 c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\serie.h
+	<string>
+	"Ponto.h"
+
+1505956663 c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\ponto.h
+
+1505956662 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\ponto.cpp
+	"Ponto.h"
+	<iostream>
+
+1506020200 source:c:\users\lucas\desktop\usp\poli\1º ano\2° sem\laboratório de programação orientada a objetos para engenharia elétrica\ep1_suposto_correti\serie.cpp
+	"Serie.h"
+	<iostream>
+
