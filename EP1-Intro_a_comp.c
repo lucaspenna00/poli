@@ -1,30 +1,32 @@
+# It's my first computational exercise :)
+
 #include <stdio.h>
 #include <stdlib.h>
 /********************************************************************/
 /**                                                                                 **/
-/**   Lucas Penna Saraiva         N˙mero USP 9770566   **/
-/**   ExercÌcio-Programa 01                                           **/
+/**   Lucas Penna Saraiva         N√∫mero USP 9770566   **/
+/**   Exerc√≠cio-Programa 01                                           **/
 /**   Professor: Alair                                                      **/
 /**   Turma: 03                                                              **/
 /**                                                                                **/
 /********************************************************************/
 
 int main()
-{   int n100, /* nX s„o as vari·veis que armazenam o n˙mero de notas x */
+{   int n100, /* nX s√£o as vari√°veis que armazenam o n√∫mero de notas x */
         n50,
         n10,
         n5,
         n1,
-        nop, /* nop È a vari·vel que armazena o n˙mero de operaÁıes desejadas pelo usu·rio*/
-        op, /* op È a vari·vel que armazena as operaÁıes saque = 0 e depÛsito = 1 */
-        cont, /*cont È a vari·vel que armazena o contador de operaÁıes dentro do laÁo*/
-        saq, /*saq È a vari·vel que armazena o valor do saque desejado*/
-        dep100, /*depX È a vari·vel que armazena o numero de notas de cada valor que se quer depositar */
+        nop, /* nop √© a vari√°vel que armazena o n√∫mero de opera√ß√µes desejadas pelo usu√°rio*/
+        op, /* op √© a vari√°vel que armazena as opera√ß√µes saque = 0 e dep√≥sito = 1 */
+        cont, /*cont √© a vari√°vel que armazena o contador de opera√ß√µes dentro do la√ßo*/
+        saq, /*saq √© a vari√°vel que armazena o valor do saque desejado*/
+        dep100, /*depX √© a vari√°vel que armazena o numero de notas de cada valor que se quer depositar */
         dep50,
         dep10,
         dep5,
         dep1,
-        n100saq, /* nXsaq s„o as vari·veis que armazenam o n˙mero de notas sacadas */
+        n100saq, /* nXsaq s√£o as vari√°veis que armazenam o n√∫mero de notas sacadas */
         n50saq,
         n10saq,
         n5saq,
@@ -52,7 +54,7 @@ int main()
             printf("\nQual operacao deseja efetuar? (0=saque, 1=deposito)");
             scanf("\n%d", &op);
 
-            /* inicializadores das vari·veis */
+            /* inicializadores das vari√°veis */
 
             n100saq = 0;
             n50saq = 0;
@@ -70,9 +72,9 @@ int main()
                     printf("\nQuantos reais deseja sacar? ");
                     scanf("%d", &saq);
 
-                    /*Aqui comeÁa um sÈrie de laÁos que alterar„o as vari·veis saq, n˙mero de notas sacadas e n˙mero de notas disponÌveis! */
-                    /*Para executar os laÁos, existem condiÁıes iniciais que devem ser obedecidas. Caso as condiÁıes n„o s„o atendidas,
-                    o programa tentar· executar o laÁo seguinte e assim sucessivamente. */
+                    /*Aqui come√ßa um s√©rie de la√ßos que alterar√£o as vari√°veis saq, n√∫mero de notas sacadas e n√∫mero de notas dispon√≠veis! */
+                    /*Para executar os la√ßos, existem condi√ß√µes iniciais que devem ser obedecidas. Caso as condi√ß√µes n√£o s√£o atendidas,
+                    o programa tentar√° executar o la√ßo seguinte e assim sucessivamente. */
 
                         while((saq>=100)&&(n100>0)){
                             saq = saq - 100;
@@ -99,11 +101,11 @@ int main()
                             n1--;
                             n1saq++;}
 
-                     /*Note que ao final dos laÁos, se a vari·vel "saq" for igual a zero, significa que houve notas o suficiente para se executar o saque,
-                     sendo essa uma condiÁ„o essencial para sinalizar que o saque foi realizado com sucesso */
+                     /*Note que ao final dos la√ßos, se a vari√°vel "saq" for igual a zero, significa que houve notas o suficiente para se executar o saque,
+                     sendo essa uma condi√ß√£o essencial para sinalizar que o saque foi realizado com sucesso */
 
                             if(saq != 0){
-                                n100 = n100i; /*note que aqui as vari·veis que armazenam o n˙mero de notas retornam ao seu valor inicial caso a vari·vel saq != 0*/
+                                n100 = n100i; /*note que aqui as vari√°veis que armazenam o n√∫mero de notas retornam ao seu valor inicial caso a vari√°vel saq != 0*/
                                 n50 = n50i;
                                 n10 = n10i;
                                 n5 = n5i;
@@ -112,7 +114,7 @@ int main()
 
                             else {
                                 printf("\nSaque efetuado: %d %d %d %d %d", n100saq, n50saq, n10saq, n5saq, n1saq);
-                                printf("\nNotas disponiveis: %d %d %d %d %d", n100, n50, n10, n5, n1);} /*note que aqui as vari·veis que armazenam o n˙mero de notas tem seu valor alterado, visto que o saque deu certo)*/
+                                printf("\nNotas disponiveis: %d %d %d %d %d", n100, n50, n10, n5, n1);} /*note que aqui as vari√°veis que armazenam o n√∫mero de notas tem seu valor alterado, visto que o saque deu certo)*/
         }
 
         if(op == 1) {
