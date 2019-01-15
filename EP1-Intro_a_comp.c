@@ -1,4 +1,4 @@
-# It's my first computational exercise :)
+//It's my first computational exercise :)
 
 #include <stdio.h>
 #include <stdlib.h>
