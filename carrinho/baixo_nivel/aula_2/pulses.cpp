@@ -1,5 +1,8 @@
 #include "mbed.h"
 
+InterruptIn  ENCOD1(PTD4);
+InterruptIn  ENCOD2(PTA12);
+
 DigitalOut IN1(PTC7);
 DigitalOut IN2(PTC0);
 DigitalOut IN3(PTC3);
@@ -14,13 +17,13 @@ void go_forward(){
      IN4 = 0;
 }
 
-void go_forward(){
+void go_backward(){
 
      IN1 = 0;
      IN2 = 1;
 
-     IN3 = 1
-     IN4 = 0;
+     IN3 = 0;
+     IN4 = 1;
 }
 
 void go_forward_right(){
@@ -73,13 +76,33 @@ void brake(){
      IN3 = 1;
      IN4 = 1;
 
-    }
+}
 
-int main() {
 
-    while(1) {
+int pulses1 = 0, pulses2 = 0;
 
-        brake();
+void count1(){
+    pulses1++;
+    wait(0.005);
+}
 
+
+void count2(){
+    pulses2++;
+    wait(0.005);
+}
+
+int main()
+{
+    ENCOD1.rise(&count1);
+
+    ENCOD2.rise(&count2);
+
+    while(1){
+
+        go_forward();
+
+        printf("Pulses 1: %d\n\r", pulses1);
+        printf("Pulses 2: %d\n\r", pulses2);
     }
 }
