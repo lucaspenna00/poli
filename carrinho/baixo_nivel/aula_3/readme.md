@@ -46,7 +46,7 @@ Após o loop acabar, o freio é acionado e o carrinho então para.
 No gif abaixo, uma trajetória foi fornecida ao carrinho: primeiro, andar 100cm para a frente. Após isso, fazer uma curva de 90º para a direita.
 Após a curva de 90º para a direita, caminhar 50cm para frente. Por fim, ré de 50cm.
 
-> ADD GIF
+![Alt Text](carrinho_trajetoria.gif)
 
 # 2. Curvas 
 
@@ -59,10 +59,10 @@ Assim, fizemos a função _turn_right()_ que vai para a direita e _turn_left()_ 
 
 ### Carrinho fazendo curva para a direita:
 
-> ADD GIF
+![Alt Text](carrinho_dir.gif)
 
 ### Carrinho fazendo curva para a esquerda:
 
-> ADD GIF
+![Alt Text](carrinho_esq.gif)
 
 Nessa aula atingimos o objetivo. Obrigado e até a próxima!
