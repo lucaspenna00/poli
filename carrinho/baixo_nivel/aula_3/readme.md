@@ -39,7 +39,7 @@ Nesse loop, controla-se o motor na condição proposta at que o número de pulso
 Além disso, nas funçes go_forward() e go_backward(), adicionou-se um controle PWM no motor A. Adicionou-se esse PWM de forma a corrigir a velocidade do motor A que estava mais rápida que o motor B, levando o carrinho a executar 
 trajetórias tortas. Esse PWM foi feito da seguinte maneira:
 
-<img src=pwm.png>
+<img src=pwm.png width=50%>
 
 Após o loop acabar, o freio é acionado e o carrinho então para.
 
@@ -53,7 +53,7 @@ Após a curva de 90º para a direita, caminhar 50cm para frente. Por fim, ré de
 Para realizar a curva a estratégia utilizada foi a seguinte: travou-se uma das rodas e a outra girando, de forma a gerar um torque que provocaria a rotação do carrinho.
 Para estimar o número de pulsos necessários para o giro do carrinho, formulei o problema da seguinte maneira:
 
-<img src=curva.png>
+<img src=curva.png width=50%>
 
 Assim, fizemos a função _turn_right()_ que vai para a direita e _turn_left()_ que vai para a esquerda.
 
