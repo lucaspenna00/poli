@@ -10,9 +10,9 @@ Dessa forma, se um dos sensores, devidamente calibrados, apontarem a distância 
 Além disso, independentemente do encoder, se o carrinho encontrar um obstáculo, ele evita a colisão, freiando adequadamente.
 
 A metodologia de validação do projeto foi a seguinte: sorteou-se uma coordenada (no caso o sorteio forneceu [137,100]) e mandou-se o carrinho para a posição fornecida.
-A interface de controle pode ser vista no exemplo abaixo, em que o carrinho foi para a coordenada {+50,-30}.
+A interface de controle pode ser vista no exemplo abaixo, em que o carrinho foi para a coordenada {+50,-30}:
 
-- Insert Gif
+![Alt Text](controle_carrinho.gif)
 
 -> Mostrar sorteio
 -> Mostrar carrinho andando
