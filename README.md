@@ -8,6 +8,7 @@ Aqui tem de tudo...
 
 - Processamento Estatístico de Sinais e Projeto de Filtros Digitais
 - Processamento de Imagens
+- Deep Learning
 - Sistemas Digitais em VHDL
 - Orientação a Objeto
 - Métodos Numéricos
