@@ -3,6 +3,7 @@
 # Poli
 
 Uma coletânea de boa parte dos projetos desenvolvidos na Poli-USP.
+Esse repositório é uma bagunça em que joguei tudo da graduação aqui.
 
 Aqui tem de tudo...
 
